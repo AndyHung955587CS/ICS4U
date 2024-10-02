@@ -1,3 +1,24 @@
+print("location of a =", id(a))
+print("location of b =", id(b))
+print(a is b)
+a = a.replace("e","z")
+print(a)
+print(b)
+print(a is b)
+print("location of a =", id(a))
+print("location of b =", id(b))
+
+# Predicted Output 
+# location of a = 53921728
+# location of b = 53921728
+# True
+# Hzllo
+# Hello
+# False
+# location of a = 53779776
+# location of b = 53921728
+# The prediction was correct (id(a) and id(b) was checked before) 
+
 A = ["zebra", "kangaroo", "cat", "human", "aardvark"]
 
 def swap(B, p, q):
