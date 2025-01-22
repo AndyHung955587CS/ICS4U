@@ -4,12 +4,12 @@
 # Program: Polynomial object/class, Final Project: The IVT Theorem
 # Description: Calculates the order, f(x) of a given value x, and expresses itself as string
 # FUNCTION DICTIONARY:
-#    class Polynomial
-#    __init__ = declares a copy of the polynomial input expressed as
-#    coefficients (int or float) in an array (cuts any leading zeroes) 
-#    get_order = returns the order of the polynomial
-#    f = Returns f(x) for a given x value 
-#    __str__ = returns the polynomial as string
+#    class Polynomial:
+#       __init__ = declares a copy of the polynomial input expressed as
+#       coefficients (int or float) in an array (cuts any leading zeroes) 
+#       get_order = returns the order of the polynomial
+#       f = Returns f(x) for a given x value 
+#       __str__ = returns the polynomial as string
 
 class Polynomial:
     def __init__(self, arr):
