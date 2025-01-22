@@ -3,7 +3,7 @@
 # Date of submission: 1/22/2025
 # Program: Poly driver, Final Project: The IVT Theorem
 # Description: Driver to test the polynomial class 
-# VARIABLE / FUNCTION DICTIONARY:
+# VARIABLE DICTIONARY:
 #   P (Polynomial.Polynomial) = coefficients (numbers in an array) of a polynomial
 #   x1 (int) = first guess  
 #   x2 (int) = second guess 
